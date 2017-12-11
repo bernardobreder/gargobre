@@ -6,6 +6,17 @@ import gargobre.server.component.HtmlText;
 
 public class TestHtmlPage extends BaseHtmlPage {
 
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String title() {
+    return "Test page";
+  }
+
+  /**
+   * {@inheritDoc}
+   */
   @Override
   public HtmlContainer body() {
     return new HtmlContainer(new HtmlH1(new HtmlContainer(new HtmlText("Hello"),
