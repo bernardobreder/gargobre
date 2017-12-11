@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgba(52, 58, 64, 0.9) !important;
+}
+
+.display-3 {
+    
+}
+
+p {
+    font-family: 'Scope One', serif;
+}
+
+.jumbotron-white {
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.jumbotron-black {
+    background-color: #e9ecef;   
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
